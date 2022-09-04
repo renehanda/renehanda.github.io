@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Sobre mim</title><!-- CSS only -->
+<title>Sobre mim</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="css/style.css" />
+<!-- Utilização da classe container do bootstrap para centralizar o conteúdo na página -->
 <div class="container">
+    <!-- Barra de navegação entre os links, utilizando variações das classes nav/navbar do bootstrap, disponível em todos os arquivos e também utilização dos ícones do site ionicons -->
     <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
         <a class="navbar-brand" href="index.html"> <ion-icon name="home-outline"></ion-icon>Início</a>
         <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
@@ -16,7 +18,9 @@
     </nav>
 </div>
 </head>
+
 <body>
+    <!-- Utilização da classe container, row e variações da classe col para organizar as informações no elemento lista de definições também foi utilizada a classe text-justify do css/style.css para justificar alinhamento do texto -->
     <div class="container text-justify">
         <h1>Sobre mim</h1><br>
         <dl class="row">
@@ -36,10 +40,8 @@
                 <p>Apoio as equipes responsáveis pelas transferências de arquivo realizadas através do software IBM Sterling B2B Integrator.</p>
             </dd>
           </dl>
-       
     </div>
-
-
+<!-- Inclusão do link do ionicon para inserir os ícones na barra de navegação -->
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 </body>
 </html>
